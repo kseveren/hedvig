@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hedvig/static/css/main.e6c13ad2.css",
+    "main.js": "/hedvig/static/js/main.60351bb7.js",
+    "static/js/787.9baba4fd.chunk.js": "/hedvig/static/js/787.9baba4fd.chunk.js",
+    "index.html": "/hedvig/index.html",
+    "main.e6c13ad2.css.map": "/hedvig/static/css/main.e6c13ad2.css.map",
+    "main.60351bb7.js.map": "/hedvig/static/js/main.60351bb7.js.map",
+    "787.9baba4fd.chunk.js.map": "/hedvig/static/js/787.9baba4fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.60351bb7.js"
+  ]
+}
