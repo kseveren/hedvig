@@ -5,7 +5,7 @@ export const PerilList = ({ perils, onPerilClick }) => {
   return (
     <Wrapper>
       <Items>
-        {perils && perils.map((peril, perilIndex) => (
+        {perils.map((peril, perilIndex) => (
           <PerilItem
             key={peril.title}
             title={peril.title}

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { usePerils } from './usePerils';
 import { PerilList } from './PerilList';
 import { PerilModal } from './PerilModal';
+import { PerilSkeleton } from '@components/Perils/PerilSkeleton';
 
 export const Perils = () => {
   const { perils, error, isLoading } = usePerils();
@@ -17,7 +18,7 @@ export const Perils = () => {
 
   if (isLoading) {
     return (
-      <p>waiting...</p>
+      <PerilSkeleton />
     );
   }
 
