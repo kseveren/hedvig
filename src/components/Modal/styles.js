@@ -50,7 +50,7 @@ const Wrapper = styled.div`
 
   @media ${({ theme }) => theme.breakpoints.media.tablet_small} {
     width: calc(100% - 2rem);
-    max-height: 42rem;
+    max-height: 48rem;
     border-radius: 1rem;
   }
 

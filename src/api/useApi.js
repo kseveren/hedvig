@@ -17,6 +17,7 @@ export const useApi = (url) => {
         setData(response.data);
       } catch (err) {
         setError(err);
+        console.warn('Error: ', err);
       } finally {
         setIsLoading(false);
       }
