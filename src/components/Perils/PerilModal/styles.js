@@ -10,7 +10,7 @@ const Coverage = styled.div`
 
 const CoverageList = styled.ul`
   ${mixins.resetList()}
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   
   &:last-child {
     margin-bottom: 0;
